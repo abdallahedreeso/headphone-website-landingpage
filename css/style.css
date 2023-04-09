@@ -29,7 +29,7 @@ header {
   min-height: 100vh;
 }
 
-body nav {
+body > nav {
   z-index: 1;
   display: flex;
   position: fixed;
@@ -37,8 +37,8 @@ body nav {
   width: 100%;
   justify-content: space-between;
   background-color: #000000;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 body nav #logo {
@@ -221,8 +221,245 @@ body #sec3 div.container article > p {
   margin: 0 15px 20px 15px;
 }
 
+body #sec4{
+  text-align: center;
+  background: #000000;
+}
+
+body #sec4 div.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body #sec4 div.container h3{
+  color: #ffd01d;
+  font-weight: 500;
+  font-size: 1.3rem;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+body #sec4 div.container figure{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+  
+body #sec4 div.container figure img{
+    width: 100%;
+  }
+
+  body #sec5{
+    background: #ffd01d;
+    padding: 35px 0;
+
+  }
+
+  body #sec5 div.container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  body #sec5 article{
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+
+  body #sec5 article h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  body #sec5 article h3{
+    font-size: 2rem;
+  }
+
+
+  body #sec5 aside{
+width: 100%; 
+margin-bottom: 25px;
+}
+
+body #sec6{
+  background: #000000;
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+body #sec6 div.container article h3{
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+
+body #sec6 div.container article p{
+  font-size: 0.9rem;
+  margin: 15px 0 35px;
+}
+
+body #sec6 div.container figure{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+body #sec6 div.container figure img{
+  width: 100%;
+}
+
+body #sec6 div.container figure aside{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+body #sec6 div.container figure aside h4{
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+body #sec6 div.container figure aside h5{
+  font-size: 0.9rem;
+
+}
+
+body #sec6 div.container figure aside p{
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+body #sec7{
+  background: url(../images/contactus.jpg) no-repeat rgba(22, 91, 102, 0.4);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+body #sec7 div.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body #sec7 div.container article h3{
+  color: #ffc100;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+body #sec7 div.container article p{
+  text-align: justify;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+body #sec7 div.container form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto;
+  border: thin solid #ffc100;
+  box-shadow: 0 0 15px #ffc100;
+  padding: 10px 10px;
+}
+
+body #sec7 div.container form input{
+  width: 100%;
+  padding: 10px;
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+body #sec7 div.container form button{
+  width: 100%;
+  padding: 10px;
+  background: #ffc100;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+body>footer{
+  background: #000000;
+  color: #ffffff;
+  padding: 40px 0;
+  border-top: 10px solid #ffc100;
+}
+
+body>footer div.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+body>footer div.container div{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 5px;
+}
+
+body>footer div.container> div a{
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+body>footer div.container> aside{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body>footer div.container> aside>div{
+justify-content: center;
+}
+
+body>footer div.container> aside> form{
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+body>footer div.container> aside> form input{
+  width: 100%;
+  border: 0;
+  background: #000000;
+  border-bottom: thin solid #fff;
+  padding: 10px 0;
+}
+
+body>footer div.container> aside> form button{
+  margin: 0 auto;
+}
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .container{
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -232,11 +469,51 @@ body #sec3 div.container article > p {
     margin-left: auto;
     margin-right: auto;
   }
+
+  body #sec3 div.container article {
+    width: 31.3%;
+  }
+
+  body #sec4 div.container figure img{
+    width: 48.9%;
+  }
+
+  body #sec6 div.container figure aside div{
+    width: 46%;
+  }
+
+  body #sec7 div.container{
+    width: 100%;
+  }
+
+  body #sec7 div.container article{
+    text-align: left;
+    padding-left: 30px;
+    width: 45%;
+  }
+
+  body #sec7 div.container form{
+    width: 45%;
+  }
+
+  body>footer div.container div{
+    width: 47.9%;
+  }
+
+  body>footer div.container> aside{
+    width: 100%;
+
+  }
+
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .container {
     width: 920px;
+  }
+
+  body #links{
+    /* display: flex; */
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */
